@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and PyCharm
+.vscode/
+.idea/
+
+# Python packages
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# PyTorch / Hugging Face cache
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Hugging Face datasets & models
+~/.cache/huggingface/
+~/.huggingface/
+cache/
+datasets/
+models/
+
+# Output folders
+outputs/
+runs/
+checkpoints/
+wandb/
+wandb-debug.log
+wandb-summary.json
+
+# Kaggle input/output
+/input/
+working/
+__output__/
+
+# Environment files
+.env
+.env.*
